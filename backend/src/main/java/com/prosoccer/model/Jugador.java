@@ -1,6 +1,7 @@
 package com.prosoccer.model;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,4 +24,6 @@ public class Jugador implements Serializable {
 	private String documento;
 
 	private String telefono;
+
+	private String password;
 }
