@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: martin
+      changes:
+        - createTable:
+            columns:
+            - column:
+                name: id
+                type: int
+                autoIncrement: true
+                constraints:
+                  primaryKey: true
+                  nullable: false
+            - column:
+                name: nombre
+                type: varchar(255)
+            - column:
+                name: apellido
+                type: varchar(255)
+            - column:
+                name: documento
+                type: varchar(255)
+            - column:
+                name: telefono
+                type: varchar(255)
+            - column:
+                name: password
+                type: varchar(255)
+            tableName: Jugador
