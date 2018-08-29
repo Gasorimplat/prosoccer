@@ -19,12 +19,14 @@ databaseChangeLog:
                 name: apellido
                 type: varchar(255)
             - column:
-                name: documento
+                name: username
                 type: varchar(255)
+                constraints:
+                  nullable: false
             - column:
                 name: telefono
                 type: varchar(255)
             - column:
                 name: password
                 type: varchar(255)
-            tableName: Jugador
+            tableName: jugador

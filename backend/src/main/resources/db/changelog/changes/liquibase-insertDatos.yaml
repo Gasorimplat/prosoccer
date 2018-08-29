@@ -13,7 +13,7 @@ databaseChangeLog:
                   name: apellido
                   value: "Arcaya"
               - column:
-                  name: documento
+                  name: username
                   value: "30972029"
               - column:
                   name: telefono
@@ -21,4 +21,4 @@ databaseChangeLog:
               - column:
                   name: password
                   value: "123456"
-            tableName: Jugador
+            tableName: jugador
